@@ -1,24 +1,356 @@
-# Compiled class file
-*.class
 
-# Log file
-*.log
 
-# BlueJ files
-*.ctxt
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+<meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<script type="text/javascript" data-toolbar-anti-flicker-loading>(function() {
+  const toolbarState = sessionStorage.getItem('Drupal.toolbar.toolbarState')
+    ? JSON.parse(sessionStorage.getItem('Drupal.toolbar.toolbarState'))
+    : false;
+  // These are classes that toolbar typically adds to <body>, but this code
+  // executes before the first paint, when <body> is not yet present. The
+  // classes are added to <html> so styling immediately reflects the current
+  // toolbar state. The classes are removed after the toolbar completes
+  // initialization.
+  const classesToAdd = ['toolbar-loading', 'toolbar-anti-flicker'];
+  if (toolbarState) {
+    const {
+      orientation,
+      hasActiveTab,
+      isFixed,
+      activeTray,
+      activeTabId,
+      isOriented,
+      userButtonMinWidth
+    } = toolbarState;
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+    classesToAdd.push(
+      orientation ? `toolbar-` + orientation + `` : 'toolbar-horizontal',
+    );
+    if (hasActiveTab !== false) {
+      classesToAdd.push('toolbar-tray-open');
+    }
+    if (isFixed) {
+      classesToAdd.push('toolbar-fixed');
+    }
+    if (isOriented) {
+      classesToAdd.push('toolbar-oriented');
+    }
 
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
+    if (activeTray) {
+      // These styles are added so the active tab/tray styles are present
+      // immediately instead of "flickering" on as the toolbar initializes. In
+      // instances where a tray is lazy loaded, these styles facilitate the
+      // lazy loaded tray appearing gracefully and without reflow.
+      const styleContent = `
+      .toolbar-loading #` + activeTabId + ` {
+        background-image: linear-gradient(rgba(255, 255, 255, 0.25) 20%, transparent 200%);
+      }
+      .toolbar-loading #` + activeTabId + `-tray {
+        display: block; box-shadow: -1px 0 5px 2px rgb(0 0 0 / 33%);
+        border-right: 1px solid #aaa; background-color: #f5f5f5;
+        z-index: 0;
+      }
+      .toolbar-loading.toolbar-vertical.toolbar-tray-open #` + activeTabId + `-tray {
+        width: 15rem; height: 100vh;
+      }
+     .toolbar-loading.toolbar-horizontal :not(#` + activeTray + `) > .toolbar-lining {opacity: 0}`;
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+      const style = document.createElement('style');
+      style.textContent = styleContent;
+      style.setAttribute('data-toolbar-anti-flicker-loading', true);
+      document.querySelector('head').appendChild(style);
+
+      if (userButtonMinWidth) {
+        const userButtonStyle = document.createElement('style');
+        userButtonStyle.textContent = `#toolbar-item-user {min-width: ` + userButtonMinWidth +`px;}`
+        document.querySelector('head').appendChild(userButtonStyle);
+      }
+    }
+  }
+  document.querySelector('html').classList.add(...classesToAdd);
+})();</script>
+<script>var _paq = _paq || [];(function(){var u=(("https:" == document.location.protocol) ? "" : "http://tbjee.tripura.gov.in");_paq.push(["setSiteId", 1]);_paq.push(["setTrackerUrl", u+"/visitors/_track"]);_paq.push(["setUserId", 0]);_paq.push(["setCustomVariable", 7, "route", "view.frontpage.page_1", "visit"]);_paq.push(["setCustomVariable", 8, "path", "\/node", "visit"]);if (!window.matomo_search_results_active) {_paq.push(["trackPageView"]);}var d=document,g=d.createElement("script"),s=d.getElementsByTagName("script")[0];g.type="text/javascript";g.defer=true;g.async=true;g.src=u+"/modules/contrib/visitors/js/tracker.js";s.parentNode.insertBefore(g,s);})();</script>
+<link rel="icon" href="/sites/default/files/Untitled%20design%20%2823%29.png" type="image/png" />
+
+    <title>Official Website | Tripura Board of Joint Entrance Examination</title>
+    <link rel="stylesheet" media="all" href="/libraries/slick/slick/slick.css?tf2lih" />
+<link rel="stylesheet" media="all" href="/modules/slick/css/layout/slick.module.css?tf2lih" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/ajax-progress.module.css?tf2lih" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/align.module.css?tf2lih" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/autocomplete-loading.module.css?tf2lih" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/fieldgroup.module.css?tf2lih" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/container-inline.module.css?tf2lih" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/clearfix.module.css?tf2lih" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/details.module.css?tf2lih" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/hidden.module.css?tf2lih" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/item-list.module.css?tf2lih" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/js.module.css?tf2lih" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/nowrap.module.css?tf2lih" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/position-container.module.css?tf2lih" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/progress.module.css?tf2lih" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/reset-appearance.module.css?tf2lih" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/resize.module.css?tf2lih" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/sticky-header.module.css?tf2lih" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/system-status-counter.css?tf2lih" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/system-status-report-counters.css?tf2lih" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/system-status-report-general-info.css?tf2lih" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/tabledrag.module.css?tf2lih" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/tablesort.module.css?tf2lih" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/tree-child.module.css?tf2lih" />
+<link rel="stylesheet" media="all" href="/core/modules/views/css/views.module.css?tf2lih" />
+<link rel="stylesheet" media="all" href="/modules/styleswitcher/css/styleswitcher-overlay.css?tf2lih" />
+<link rel="stylesheet" media="all" href="/modules/blazy/css/blazy.css?tf2lih" />
+<link rel="stylesheet" media="all" href="/modules/blazy/css/components/blazy.loading.css?tf2lih" />
+<link rel="stylesheet" media="all" href="/libraries/slick/slick/slick-theme.css?tf2lih" />
+<link rel="stylesheet" media="all" href="/modules/slick/css/theme/slick.theme.css?tf2lih" />
+<link rel="stylesheet" media="all" href="/modules/slick/css/theme/slick.theme--full.css?tf2lih" />
+<link rel="stylesheet" media="all" href="/modules/slick/css/theme/slick.theme--fullwidth.css?tf2lih" />
+<link rel="stylesheet" media="all" href="/themes/tripura/assets/css/bootstrap.min.css?tf2lih" />
+<link rel="stylesheet" media="all" href="/themes/tripura/assets/css/fontawesome.css?tf2lih" />
+<link rel="stylesheet" media="all" href="/themes/tripura/assets/css/themify-icons.css?tf2lih" />
+<link rel="stylesheet" media="all" href="/themes/tripura/assets/css/animate.min.css?tf2lih" />
+<link rel="stylesheet" media="all" href="/themes/tripura/assets/css/jquery-ui.css?tf2lih" />
+<link rel="stylesheet" media="all" href="/themes/tripura/assets/css/common.css?tf2lih" />
+<link rel="stylesheet" media="print" href="/themes/tripura/assets/css/print.css?tf2lih" />
+<link rel="stylesheet" media="all" href="/themes/tripura/assets/css/responsive.css?tf2lih" />
+<link rel="stylesheet" media="all" href="/themes/tripura/css/sm-core-css.css?tf2lih" />
+<link rel="stylesheet" media="all" href="/themes/tripura/css/sm-clean.css?tf2lih" />
+<link rel="stylesheet" media="all" href="/themes/tripura/css/breaking-news-ticker.css?tf2lih" />
+<link rel="stylesheet" media="all" href="/themes/tripura/assets/css/style.css?tf2lih" />
+<link rel="stylesheet" media="all" href="/styleswitcher/css/tripura?tf2lih" id="styleswitcher-css" />
+
+    
+     <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"node","currentPathIsAdmin":false,"isFront":true,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"styleSwitcher":{"styles":{"custom\/black":{"name":"custom\/black","label":"B","path":"http:\/\/tbjee.tripura.gov.in\/modules\/styleswitcher\/color-theme\/black.css","is_default":false,"status":true,"weight":0,"_i":0,"theme":"tripura"},"custom\/blue":{"name":"custom\/blue","label":"B","path":"http:\/\/tbjee.tripura.gov.in\/modules\/styleswitcher\/color-theme\/blue.css","is_default":false,"status":true,"weight":0,"_i":1,"theme":"tripura"},"custom\/default":{"name":"custom\/default","label":"A","path":"http:\/\/tbjee.tripura.gov.in\/styleswitcher\/css\/tripura","is_default":false,"status":true,"weight":0,"_i":2,"theme":"tripura"},"custom\/grey":{"name":"custom\/grey","label":"G","path":"http:\/\/tbjee.tripura.gov.in\/modules\/styleswitcher\/color-theme\/grey.css","is_default":false,"status":true,"weight":0,"_i":3,"theme":"tripura"}},"default":"custom\/default","enableOverlay":true,"cookieExpire":31536000,"theme":"tripura"},"blazy":{"loadInvisible":false,"offset":100,"saveViewportOffsetDelay":50,"validateDelay":25,"container":"","loader":true,"unblazy":false},"blazyIo":{"disconnect":false,"rootMargin":"0px","threshold":[0,0.25,0.5,0.75,1]},"slick":{"accessibility":true,"adaptiveHeight":false,"autoplay":false,"autoplaySpeed":3000,"pauseOnHover":true,"pauseOnDotsHover":false,"pauseOnFocus":true,"arrows":true,"downArrow":false,"downArrowTarget":"","downArrowOffset":0,"centerMode":false,"centerPadding":"50px","dots":false,"dotsClass":"slick-dots","draggable":true,"fade":false,"focusOnSelect":false,"infinite":true,"initialSlide":0,"lazyLoad":"ondemand","mouseWheel":false,"randomize":false,"rtl":false,"rows":1,"slidesPerRow":1,"slide":"","slidesToShow":1,"slidesToScroll":1,"speed":500,"swipe":true,"swipeToSlide":false,"edgeFriction":0.35,"touchMove":true,"touchThreshold":5,"useCSS":true,"cssEase":"ease","cssEaseBezier":"","cssEaseOverride":"","useTransform":true,"easing":"linear","variableWidth":false,"vertical":false,"verticalSwiping":false,"waitForAnimate":true},"user":{"uid":0,"permissionsHash":"d6da8d9b0c67c5d110790bdd93083a62b07b933dd960ae74f4aecb7cbd211858"}}</script>
+<script src="/modules/blazy/js/polyfill/blazy.polyfill.min.js?tf2lih"></script>
+<script src="/core/assets/vendor/jquery/jquery.min.js?v=3.7.0"></script>
+<script src="/modules/blazy/js/polyfill/blazy.classlist.min.js?tf2lih"></script>
+<script src="/modules/blazy/js/polyfill/blazy.promise.min.js?tf2lih"></script>
+<script src="/modules/blazy/js/polyfill/blazy.raf.min.js?tf2lih"></script>
+<script src="/core/assets/vendor/once/once.min.js?v=1.0.1"></script>
+<script src="/core/misc/drupalSettingsLoader.js?v=10.1.2"></script>
+<script src="/core/misc/drupal.js?v=10.1.2"></script>
+<script src="/core/misc/drupal.init.js?v=10.1.2"></script>
+<script src="/core/misc/debounce.js?v=10.1.2"></script>
+<script src="/modules/blazy/js/dblazy.min.js?tf2lih"></script>
+<script src="/modules/blazy/js/plugin/blazy.dataset.min.js?tf2lih"></script>
+<script src="/modules/blazy/js/plugin/blazy.viewport.min.js?tf2lih"></script>
+<script src="/modules/blazy/js/plugin/blazy.dom.min.js?tf2lih"></script>
+<script src="/modules/blazy/js/plugin/blazy.xlazy.min.js?tf2lih"></script>
+<script src="/modules/blazy/js/plugin/blazy.observer.min.js?tf2lih"></script>
+<script src="/modules/blazy/js/plugin/blazy.loading.min.js?tf2lih"></script>
+<script src="/modules/blazy/js/polyfill/blazy.webp.min.js?tf2lih"></script>
+<script src="/modules/blazy/js/base/blazy.base.min.js?tf2lih"></script>
+<script src="/modules/blazy/js/base/blazy.min.js?tf2lih"></script>
+<script src="/modules/blazy/js/base/io/bio.min.js?tf2lih"></script>
+<script src="/libraries/slick/slick/slick.min.js?v=1.x"></script>
+<script src="/modules/blazy/js/base/io/bio.media.min.js?tf2lih"></script>
+<script src="/modules/blazy/js/base/blazy.drupal.min.js?tf2lih"></script>
+<script src="/modules/blazy/js/blazy.load.min.js?tf2lih"></script>
+<script src="/themes/tripura/assets/js/bootstrap.bundle.min.js?tf2lih"></script>
+<script src="/themes/tripura/assets/js/main.js?tf2lih"></script>
+<script src="/themes/tripura/js/newsTicker.js?tf2lih"></script>
+<script src="/themes/tripura/js/owl.carousel.min.js?tf2lih"></script>
+<script src="/themes/tripura/js/jQuery.scrollText.js?tf2lih"></script>
+<script src="/themes/tripura/js/custom.js?tf2lih"></script>
+<script src="/themes/tripura/js/jquery.smartmenus.js?tf2lih"></script>
+<script src="/themes/tripura/js/jquery.easy-ticker.min.js?tf2lih"></script>
+<script src="/themes/tripura/js/breaking-news-ticker.min.js?tf2lih"></script>
+<script src="/modules/styleswitcher/js/styleswitcher.js?v=2.x"></script>
+<script src="/modules/slick/js/slick.load.min.js?v=10.1.2"></script>
+ 
+<script>
+(function ($) { 
+$(function(){
+$(document).ready(function(){
+
+
+var lang=$('#lang').val();
+if(lang=="en")
+{
+$('li.en a').css("display","none");
+$("a.style-default").attr("title","Default Theme");
+$("a.style-black").attr("title","Black Theme");
+$("a.style-blue").attr("title","Blue Theme");
+$("a.style-gray").attr("title","Gray Theme");
+}
+else
+{
+$('li.hi a').css("display","none");
+$("a.style-default").attr("title","डिफ़ॉल्ट थीम");
+$("a.style-black").attr("title","ब्लैक थीम");
+$("a.style-blue").attr("title","ब्लू थीम");
+$("a.style-gray").attr("title","ग्रे थीम");
+}
+});
+
+}); 
+})(jQuery);	
+
+
+</script>
+
+  </head>
+ 
+ <body class="path-frontpage">
+
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    <!-- body wrap start -->
+<div class="body_wrap">
+  <!-- header start -->
+
+  <header class=" ">
+    <div class="header_top">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="d-flex flex-wrap justify-content-start">
+              <div class="p-1">
+                  <div>
+    <div id="block-tripura-screenreader" class="block">
+  
+    
+  <div class="block-content" tabindex="0">
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field-item"><p><i class="fas fa-eye-slash"> </i><a class="skiptoreader" href="screen-reader-access" title="Screen Reader Access">Screen Reader Access</a></p></div>
+      
+    </div>
+</div> <!--/.block-content -->
+
+  </div>
+
+              </div>
+              <div class="p-1">
+                  <div>
+    <div id="block-tripura-skiptomain" class="block">
+  
+    
+  <div class="block-content" tabindex="0">
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field-item"><p><em><i class="fas fa-forward"> </i></em><a class="m_content" href="#maincontent" title="Skip to Main Content">Skip To Main Content</a></p></div>
+      
+    </div>
+</div> <!--/.block-content -->
+
+  </div>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="d-flex flex-wrap justify-content-start justify-content-md-end">
+              <div class="p-1 style-switch">
+                  <div>
+    <div id="block-tripura-styleswitcher" class="block">
+  
+    
+  <div class="block-content">
+      <div class="item-list">
+    <ul><li><a href="/styleswitcher/switch/tripura/custom/black?destination=/node" class="style-switcher custom-style style-black" data-rel="custom/black" rel="nofollow">B</a></li><li><a href="/styleswitcher/switch/tripura/custom/blue?destination=/node" class="style-switcher custom-style style-blue" data-rel="custom/blue" rel="nofollow">B</a></li><li><a href="/styleswitcher/switch/tripura/custom/default?destination=/node" class="style-switcher custom-style style-default" data-rel="custom/default" rel="nofollow">A</a></li><li><a href="/styleswitcher/switch/tripura/custom/grey?destination=/node" class="style-switcher custom-style style-grey" data-rel="custom/grey" rel="nofollow">G</a></li></ul>
+  </div>
+    </div>
+</div> <!--/.block-content -->
+
+  </div>
+
+              </div>
+              <div class="p-1 textsize">
+                  <div>
+    <div id="block-tripura-textresize" class="block">
+  
+    
+  <div class="block-content" tabindex="0">
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field-item"><ul><li class="mFocus"><a class="fsize" href="javascript:void(0);" onclick="setFontSize('plus');" title="Increase Font Size"><span aria-hidden="true">A+</span></a></li>
+	<li><a class="fsize" href="javascript:void(0);" onclick="setFontSize('default');" title="Default Font Size"><span aria-hidden="true">A</span></a></li>
+	<li><a class="fsize" href="javascript:void(0);" onclick="setFontSize('minus');" title="Decrease Font Size"><span aria-hidden="true">A-</span></a></li>
+</ul></div>
+      
+    </div>
+</div> <!--/.block-content -->
+
+  </div>
+
+              </div>
+                          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="main">
+
+    <div class="header_bottom">
+
+      <div class="container">
+
+        <div class="row align-items-center">
+          <div class="col-xl-1 col-lg-1 col-2 emblem">
+            <div class="">
+              
+            </div>
+          </div>
+
+          <div class="col-xl-7 col-lg-8 col-8 d-lg-block">
+            <div class="logo">
+              <p id="site_name" class="text-dark font-weight-bold" rel="home">Tripura Board of Joint Entrance Examination</p>
+              <p id="site_slogan">Directorate of Higher Education</p>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-12 col-2">
+            <div class="header_right">
+              <div class="header_search_wrap">
+                
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-1 col-lg-1 col-12 emblem">
+            <div class="">
+              
+            </div>
+          </div>
+
+        </div><!--row -->
+      </div><!--container -->
+
+    </div><!-- header -->
+
+ <!-- Sticky Menu -->
+    <div class="topmenu" id="topmenu">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-xl-12 col-lg-12 d-lg-block">
+                      <div>
+    <!--<nav  aria-labelledby="block-tripura-main-menu-menu" id="block-tripura-main-menu"> -->
+
+            
+  <h2 class="visually-hidden" id="block-tripura-main-menu-menu">Main navigation</h2>
+  
+
+        <div class="main-nav">
+  <!-- <h2 class="nav-brand">Main Menu</h2> -->
+    <!-- Mobile menu toggle button (hamburger/x icon) -->
+  <input id="main-menu-state" type="checkbox" />
+
+   <label class="main-menu-btn" for="main-menu-state">
+    <span class="main-menu-btn-icon"></span> Main Menu
+  </label>
+        
+<ul id="main-menu" class="sm sm-clean" style="">
+        	 	   <li  class="active"><a href="/" data-drupal-link-system-path="&lt;front&gt;" class="is-active">Home</a></li>
+	         	 	   <li ><a href="/about-us" data-drupal-link-system-path="node/272">About Us</a></li>
+	         	 	   <li ><a href="https://jeeonline.tripura.gov.in/">Result</a></li>
+	         	 	            <li tabindex="0">
+        <a href="/" title="Documents">Documents </a>
+
+                       <ul>
+        	 	   <li ><a href="/notifications" data-drupal-link-system-path="notifications">Notifications</a></li>
+	         	 	   <li ><a href="/archive" data-drupal-link-system-path="archive">Archive</a></li>
+	   
