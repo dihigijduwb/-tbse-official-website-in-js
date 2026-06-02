@@ -1,5 +1,6 @@
 
 
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -353,4 +354,134 @@ $("a.style-gray").attr("title","ग्रे थीम");
                        <ul>
         	 	   <li ><a href="/notifications" data-drupal-link-system-path="notifications">Notifications</a></li>
 	         	 	   <li ><a href="/archive" data-drupal-link-system-path="archive">Archive</a></li>
+
+                  <div class="views-col col-1" style="width: 100%;"><div class="views-field views-field-field-upload-pdf-file"><div class="field-content"><h6 class="whats-new-content pdf-content">
+    <a href="/sites/default/files/2026-05/Final%20answer%20key%20notice-2026_0.pdf">
+        Final answer key of TJEE-2026
+
+                      <img loading="lazy" src="/sites/default/files/default_images/m-new_0.gif" width="30" height="14" alt="" class="image-field" />
+
+
+            </a>
+</h6></div></div><div class="views-field views-field-field-url-link-address"><div class="field-content"></div></div><div class="views-field views-field-edit-node"><span class="field-content"></span></div></div>
+              </div>
+          <div class="views-row clearfix row-7">
+                  <div class="views-col col-1" style="width: 100%;"><div class="views-field views-field-field-upload-pdf-file"><div class="field-content"><h6 class="whats-new-content pdf-content">
+    <a href="/sites/default/files/2026-05/notice%20for%20caste%20certificates2-2026.pdf">
+        Notice regarding non-receipt of Caste Certificates
+
+            </a>
+</h6></div></div><div class="views-field views-field-field-url-link-address"><div class="field-content"></div></div><div class="views-field views-field-edit-node"><span class="field-content"></span></div></div>
+              </div>
+          <div class="views-row clearfix row-8">
+                  <div class="views-col col-1" style="width: 100%;"><div class="views-field views-field-field-upload-pdf-file"><div class="field-content"><h6 class="whats-new-content pdf-content">
+    <a href="/sites/default/files/2026-05/answer%20key%20challenge%20extention%20notice-2026a.pdf">
+        Extension of period of challenge answer key
+
+            </a>
+</h6></div></div><div class="views-field views-field-field-url-link-address"><div class="field-content"></div></div><div class="views-field views-field-edit-node"><span class="field-content"></span></div></div>
+              </div>
+          <div class="views-row clearfix row-9">
+                  <div class="views-col col-1" style="width: 100%;"><div class="views-field views-field-field-upload-pdf-file"><div class="field-content"><h6 class="whats-new-content pdf-content">
+    <a href="/sites/default/files/2026-04/provisional%20answer%20key-2026_0.pdf">
+        Provisional Answer Key of TJEE-2026
+
+            </a>
+</h6></div></div><div class="views-field views-field-field-url-link-address"><div class="field-content"></div></div><div class="views-field views-field-edit-node"><span class="field-content"></span></div></div>
+              </div>
+          <div class="views-row clearfix row-10">
+                  <div class="views-col col-1" style="width: 100%;"><div class="views-field views-field-field-upload-pdf-file"><div class="field-content"><h6 class="whats-new-content pdf-content">
+    <a href="/sites/default/files/2026-04/Notice%20for%20closing%20of%20gate%20%282%29.pdf">
+        Notice for Closing of Entry Gate of Exam Center
+
+            </a>
+</h6></div></div><div class="views-field views-field-field-url-link-address"><div class="field-content"></div></div><div class="views-field views-field-edit-node"><span class="field-content"></span></div></div>
+              </div>
+          <div class="views-row clearfix row-11">
+                  <div class="views-col col-1" style="width: 100%;"><div class="views-field views-field-field-upload-pdf-file"><div class="field-content"><h6 class="whats-new-content pdf-content">
+    <a href="/sites/default/files/2026-04/Admit%20card%20download%202026.pdf">
+        Notice for downloading Admit Card of TJEE-2026
+
+            </a>
+</h6></div></div><div class="views-field views-field-field-url-link-address"><div class="field-content"></div></div><div class="views-field views-field-edit-node"><span class="field-content"></span></div></div>
+              </div>
+          <div class="views-row clearfix row-12">
+                  <div class="views-col col-1" style="width: 100%;"><div class="views-field views-field-field-upload-pdf-file"><div class="field-content"><h6 class="whats-new-content pdf-content">
+    <a href="/sites/default/files/2026-04/notice%20for%20esmpwd%20certificates-2026a_0.pdf">
+        Notice for invalid PH/ESM Certificates
+
+            </a>
+</h6></div></div><div class="views-field views-field-field-url-link-address"><div class="field-content"></div></div><div class="views-field views-field-edit-node"><span class="field-content"></span></div></div>
+              </div>
+          <div class="views-row clearfix row-13">
+                  <div class="views-col col-1" style="width: 100%;"><div class="views-field views-field-field-upload-pdf-file"><div class="field-content"><h6 class="whats-new-content pdf-content">
+    <a href="/sites/default/files/2026-03/TBJEE%20notice%20for%20caste%20certificates-2026.pdf">
+        Notice for submitting caste certificates
+
+            </a>
+</h6></div></div><div class="views-field views-field-field-url-link-address"><div class="field-content"></div></div><div class="views-field views-field-edit-node"><span class="field-content"></span></div></div>
+              </div>
+          <div class="views-row clearfix row-14">
+                  <div class="views-col col-1" style="width: 100%;"><div class="views-field views-field-field-upload-pdf-file"><div class="field-content"><h6 class="whats-new-content pdf-content">
+    <a href="/sites/default/files/2026-03/Pwd_notice.pdf">
+        Notice regarding provision of scribe for PH candidates
+
+            </a>
+</h6></div></div><div class="views-field views-field-field-url-link-address"><div class="field-content"></div></div><div class="views-field views-field-edit-node"><span class="field-content"></span></div></div>
+              </div>
+          <div class="views-row clearfix row-15">
+                  <div class="views-col col-1" style="width: 100%;"><div class="views-field views-field-field-upload-pdf-file"><div class="field-content"><h6 class="whats-new-content pdf-content">
+    <a href="/sites/default/files/2026-03/extension%20of%20time%20for%20online%20application%20.pdf">
+        Extension of Time for Online Application of Tripura Joint Entrance Examination-2026
+
+            </a>
+</h6></div></div><div class="views-field views-field-field-url-link-address"><div class="field-content"></div></div><div class="views-field views-field-edit-node"><span class="field-content"></span></div></div>
+              </div>
+          <div class="views-row clearfix row-16">
+                  <div class="views-col col-1" style="width: 100%;"><div class="views-field views-field-field-upload-pdf-file"><div class="field-content"><h6 class="whats-new-content pdf-content">
+    <a href="/sites/default/files/2026-02/application%20correction%20.pdf">
+        Notice for correction of application
+
+            </a>
+</h6></div></div><div class="views-field views-field-field-url-link-address"><div class="field-content"></div></div><div class="views-field views-field-edit-node"><span class="field-content"></span></div></div>
+              </div>
+          <div class="views-row clearfix row-17">
+                  <div class="views-col col-1" style="width: 100%;"><div class="views-field views-field-field-upload-pdf-file"><div class="field-content"><h6 class="whats-new-content pdf-content">
+    <a href="/sites/default/files/2026-02/Extension_tjee%202026.pdf">
+        Extension of Time for Online Application of Tripura Joint Entrance Examination-2026
+
+            </a>
+</h6></div></div><div class="views-field views-field-field-url-link-address"><div class="field-content"></div></div><div class="views-field views-field-edit-node"><span class="field-content"></span></div></div>
+              </div>
+          <div class="views-row clearfix row-18">
+                  <div class="views-col col-1" style="width: 100%;"><div class="views-field views-field-field-upload-pdf-file"><div class="field-content"><h6 class="whats-new-content pdf-content">
+    <a href="/sites/default/files/2026-02/notification%20newspaper.pdf">
+        Educational notification 1-2026
+
+            </a>
+</h6></div></div><div class="views-field views-field-field-url-link-address"><div class="field-content"></div></div><div class="views-field views-field-edit-node"><span class="field-content"></span></div></div>
+              </div>
+          <div class="views-row clearfix row-19">
+                  <div class="views-col col-1" style="width: 100%;"><div class="views-field views-field-field-upload-pdf-file"><div class="field-content"></div></div><div class="views-field views-field-field-url-link-address"><div class="field-content"><h6 class="whats-new-content link-content"><a href="https://jeeonline.tripura.gov.in/">Apply Online for Tripura Joint Entrance Examination-2026</a></h6></div></div><div class="views-field views-field-edit-node"><span class="field-content"></span></div></div>
+              </div>
+          <div class="views-row clearfix row-20">
+                  <div class="views-col col-1" style="width: 100%;"><div class="views-field views-field-field-upload-pdf-file"><div class="field-content"><h6 class="whats-new-content pdf-content">
+    <a href="/sites/default/files/2026-02/Prospectus-2026.pdf">
+        Prospectus 2026
+
+            </a>
+</h6></div></div><div class="views-field views-field-field-url-link-address"><div class="field-content"></div></div><div class="views-field views-field-edit-node"><span class="field-content"></span></div></div>
+              </div>
+          <div class="views-row clearfix row-21">
+                  <div class="views-col col-1" style="width: 100%;"><div class="views-field views-field-field-upload-pdf-file"><div class="field-content"><h6 class="whats-new-content pdf-content">
+    <a href="/sites/default/files/2026-01/Reconstitution%20of%20the%20TBJEE%20for%20the%20AY%202026-27.pdf">
+        Reconstitution of the TBJEE for the AY 2026-27
+
+            </a>
+</h6></div></div><div class="views-field views-field-field-url-link-address"><div class="field-content"></div></div><div class="views-field views-field-edit-node"><span class="field-content"></span></div></div>
+              </div>
+      </div>
+
+    
+
 	   
